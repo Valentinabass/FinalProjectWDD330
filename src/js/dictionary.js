@@ -2,6 +2,7 @@ const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 const result = document.getElementById("result");
 const sound = document.getElementById("sound");
 const btn = document.getElementById("search-btn");
+const favorite = document.getElementById("add-btn");
 
 btn.addEventListener("click", () => {
     let inpWord = document.getElementById("inp-word").value;
@@ -33,4 +34,20 @@ btn.addEventListener("click", () => {
 
 function playSound() {
     sound.play();
+
 }
+//  add to fav 
+
+// function getLocalStorage(key) {
+//     return JSON.parse(localStorage.getItem(key));
+//   }
+  
+//   // save data to local storage
+// function setLocalStorage(key, data) {
+//     localStorage.setItem(key, JSON.stringify(data));
+//   }
+  
+// favorite.addEventListener("click", () => {
+//     let  word = document.getElementById("inp-word").value;
+//     let wordMeaning = document.getElementById("word-meaning").value;
+//     });

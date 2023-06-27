@@ -16,9 +16,9 @@ body {
     background-color: #ffffff;
     width: 90vmin;
     position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+    
+    top: 20%;
+    left: 5%;
     padding: 80px 50px;
     border-radius: 10px;
     box-shadow: 0 2opx 40px rgba(38, 33, 61, 0.2);
@@ -40,7 +40,7 @@ body {
 
 }
 
-.search-box button {
+.search-box button, .favorite-list button{
     padding: 15px 0;
     width: 25%;
     background-color: #ae9cff;
@@ -50,6 +50,15 @@ body {
     border-radius: 5px;
 
 }
+
+
+.favorite-list {
+     display: flex ;
+    justify-content: center; 
+    margin-top: 50px;
+   
+    
+} 
 
 .result {
     position: relative;
@@ -92,4 +101,23 @@ body {
     border-left: 5px solid #ae9cff;
     padding-left: 20px;
     margin-top: 30px;
+}
+
+.container-two {
+    background-color: #ffffff;
+   
+    width: 90vmin;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 2opx 40px rgba(38, 33, 61, 0.2);
+}
+.div-remove-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.title-container-two {
+    color:#ae9cff;
 }
