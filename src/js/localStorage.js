@@ -15,7 +15,7 @@ const storeWord = () => {
 
     }else {
         let getWords = JSON.parse(localStorage.getItem("inputWords"));
-        getWords.push(tarea);
+        getWords.push(inputWord);
         localStorage.setItem("inputWords", JSON.stringify(getWords));
     }
 
