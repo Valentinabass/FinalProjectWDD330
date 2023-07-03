@@ -15,8 +15,10 @@
     <audio id="sound"></audio>
     <div class="container">
         <div class="search-box">
-            <input type="text" placeholder="type the word here..." id="inp-word" />
-            <button id="search-btn">search</button>
+            <!-- <form action="#"> -->
+                <input type="text" required placeholder="type the word here..." id="inp-word"  />
+                <button id="search-btn">search</button>
+            <!-- </form> -->
         </div>
 
         <div class="result" id="result">
@@ -30,7 +32,7 @@
     </div>
 
     <div class="container-two">
-        <h3 class="title-container-two">Favorites Words</h3>
+      <h3 class="title-container-two">Favorites Words</h3>   
 
         <!-- <div class="container-list-first">
              word in the list 
@@ -39,12 +41,24 @@
             </div>
              remove word from list 
             <div class="div-remove-btn">
-                <button id="remove-btn">✖</button>
+                <button id="remove-btn"><i class="fas fa-trash-alt"></i></button>
             </div>
         </div> -->
     </div>
     
-    <script src="./js/dictionary.js"></script>
+    <h3>See more!</h3>
+    <div class="container-three">
+        <!-- image here -->
+        <h4>Lingua Translator</h4>
+
+    </div>
+
+    <div class="container-four">
+        <!-- image here -->
+        <h4>Activities</h4>
+
+    </div>
+     <script src="./js/dictionary.js"></script>
     <script src="./js/localStorage.js"></script>
 </body>
 
