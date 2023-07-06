@@ -5,61 +5,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linguanell</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+    <!-- FONTS -->
+    <!--font-family: 'Oswald', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    
+    <!--font-family: 'Roboto', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+ 
+    
     <script src="https://kit.fontawesome.com/a644f08d36.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <audio id="sound"></audio>
-    <div class="container">
-        <div class="search-box">
-            <!-- <form action="#"> -->
-                <input type="text" required placeholder="type the word here..." id="inp-word"  />
-                <button id="search-btn">search</button>
-            <!-- </form> -->
-        </div>
+    <header class="all">
+        <div class="div-header">
+            <h2></h2>
+            <div class="div-logo">
+                <h1 class="logo">LINGUANELL</h1>
+            </div>
 
-        <div class="result" id="result">
+            <div class="div-nav">
+                
+                <nav>
+                    <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+                    <ul id="primaryNav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Dictionary</a></li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         
+    </header>
+    <div class="main-container">
+        <audio id="sound"></audio>
+        <div class="container">
+            <div class="search-box">
+                <!-- <form action="#"> -->
+                    <input type="text" required placeholder="type the word here..." id="inp-word"  />
+                    <button id="search-btn">search</button>
+                <!-- </form> -->
+            </div>
+
+            <div class="result" id="result">
+            
+            </div>
+
+            <div class="favorite-list">
+                <button id="add-btn">Add to ❤</button>
+        
+            </div>
+        </div>
+        
+        <div class="container-two">
+        <h3 class="title-container-two">Favorites Words</h3>   
+
+            <!-- <div class="container-list-first">
+                word in the list 
+                <div class="container-list">
+                    <p class="added-word">Tarea</p>
+                </div>
+                remove word from list 
+                <div class="div-remove-btn">
+                    <button id="remove-btn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+            </div> -->
+        </div>
+        
+        <h3 class="see-more">See more!</h3>
+        <div class="container-three-four">
+            <div class="container-three">
+                <!-- image here -->
+               <div class="content-three">
+                    <h4>Lingua Translator</h4>
+                    <img class="img-translator" src="img/translator.png">
+                </div>
+
+            </div>
+
+            <div class="container-four">
+                <!-- image here -->
+                <div class="content-four">
+                    <h4>Activities</h4>
+                    <img class="img-activities" src="img/activities.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer.html -->
+    <footer>
+        <div class="footer-1">
+            <h1 class="footer-h1">LINGUANELL</h1>
+            
+            <div class="footer-contact">
+                <address> Argentina <br></address>
+                <p>linguanell@gmail.com <br></p>
+                <p>+54 9 3875 765 543</p>
+                
+                <div class="div-location">
+                    <ul class="location">
+                        <li><a href="#">Location map</a></li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
-        <div class="favorite-list">
-            <button id="add-btn">Add to ❤</button>
-    
-        </div>
-    </div>
-
-    <div class="container-two">
-      <h3 class="title-container-two">Favorites Words</h3>   
-
-        <!-- <div class="container-list-first">
-             word in the list 
-            <div class="container-list">
-                <p class="added-word">Tarea</p>
-            </div>
-             remove word from list 
-            <div class="div-remove-btn">
-                <button id="remove-btn"><i class="fas fa-trash-alt"></i></button>
-            </div>
-        </div> -->
-    </div>
-    
-    <h3>See more!</h3>
-    <div class="container-three">
-        <!-- image here -->
-        <h4>Lingua Translator</h4>
-
-    </div>
-
-    <div class="container-four">
-        <!-- image here -->
-        <h4>Activities</h4>
-
-    </div>
+        <div class= "copy">
+            <hr class="footer-hr">
+            </span> .:|:. Aldana V Bass .:|:. LINGUANELL </p>
+        </div> 
+    </footer>   
+           
+        
      <script src="./js/dictionary.js"></script>
     <script src="./js/localStorage.js"></script>
+
+
 </body>
 
 </html>
