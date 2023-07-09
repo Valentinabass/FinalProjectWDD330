@@ -37,7 +37,8 @@ h1, h3, h4 {
     left: 5%;
     padding: 80px 50px;
     border-radius: 10px;
-    box-shadow: 0 2opx 40px rgba(38, 33, 61, 0.2);
+    box-shadow: 0 10px 15px #000000;
+
 }
 
 .search-box {
@@ -65,6 +66,7 @@ h1, h3, h4 {
     outline: none;
     color: #ffffff;
     border-radius: 5px;
+    box-shadow: 0 5px 10px #000000;
 
 }
 
@@ -99,6 +101,7 @@ h1, h3, h4 {
     border: none;
     outline: none;
     font-size: 18px;
+   
 
 }
 
@@ -130,6 +133,7 @@ h1, h3, h4 {
     padding: 80px 30px;
     border-radius: 10px;
     box-shadow: 0 2opx 40px rgba(38, 33, 61, 0.2);
+    box-shadow: 0 10px 15px #000000;
 }
 .div-remove-btn {
     display: flex;
@@ -147,14 +151,18 @@ h1, h3, h4 {
     background-color: #0a8796;
     margin-top: 30px;
     margin-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     width: 90%;
     padding: 50px;
     border-radius: 40px;
+    box-shadow: 0 10px 15px #000000;
+    overflow: hidden;
+    transition: 0.5s;
 }
-/* .container-four {
-    margin-bottom: 30px;
-} */
+
+.container-three:hover, .container-four:hover {
+    transform: scale(1.1);
+}
 h4, h3 {
   text-align: center;
 
@@ -163,12 +171,14 @@ h4, h3 {
 .img-activities, .img-translator {
     width: 50%;
     padding: 10px;
- 
+    
 }
 
 .content-three, .content-four {
     text-align: center;
+    
 }
+
 /* NAAAAAAAAAAAAAAAAV */
 nav button {
     margin: .2rem 2vw;
