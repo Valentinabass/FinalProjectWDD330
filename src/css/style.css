@@ -10,6 +10,7 @@
 
 body {
     background-color: #ffffff;
+    padding: 30px;
 }
 
 header {
@@ -27,6 +28,65 @@ header {
 h1, h3, h4 {
     font-family: 'Oswald', sans-serif;
 }
+
+p {
+    text-align: center;
+}
+
+/*HOMEEEEE*/
+.podcast-home img, .classes-home img, .contact-home img, .faq-home img {
+
+    width: 290px;
+
+}
+
+.presentation-home{
+    text-align: center;
+}
+
+/* .contact-home {
+ padding-left: 30px;
+} */
+
+.reserve-button a, .podcasts-button a, .classes-button a, .contact-button a, .faq-button-home a {
+    text-decoration: none ;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+   
+    
+
+}
+.reserve-button , .podcasts-button, .classes-button ,.faq-button-home  { 
+    background-color: #06ccd7;
+    text-align: center;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.contact-button {
+    background-color: #06ccd7;
+    text-align: center;
+    height: 60px;
+    padding-top: 2px;
+    padding-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+
+}
+
+.faq-home ul li {
+    list-style-type: circle;
+    text-align: center;
+}
+.faq-home img {
+    display: none;
+}
+/*INDEEEEXXXX*/
 .container {
     background-color: #06ccd7;
     width: 90%;
@@ -196,12 +256,14 @@ nav ul li a {
     color: #ffffff;
     background-color: #0a8796;
     border-top: 1px solid #e7ebec;
+   
     
   }
 
 nav ul {
    
     list-style-type: none;
+    position: absolute;
     width: 100%;
     font-family: 'Roboto', sans-serif;
   }
