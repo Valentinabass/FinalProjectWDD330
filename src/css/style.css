@@ -308,10 +308,15 @@ footer {
 .footer-h1 {
     color: #000000 ;
 }
-.location {
+.location, .activities-link {
+    text-decoration: none;
     list-style-type: none;
     color: #ffffff;
 
+}
+  ul li a{
+    text-decoration: none;
+    color:#e7ebec;
 }
 
 .footer-hr {
